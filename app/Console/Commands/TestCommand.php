@@ -20,7 +20,7 @@ class TestCommand extends Command
             exec("composer require laravel/nova:$version 2> /dev/null");
             $this->info('Running tests...');
             $path = base_path();
-            exec("cd $path && php artisan test");
+            passthru("cd $path && php artisan test");
         }
     }
 }
