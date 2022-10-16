@@ -19,7 +19,7 @@ class TestCommand extends Command
             $this->info("Installing $version...");
             exec("composer require laravel/nova:$version 2> /dev/null");
             $this->info('Running tests...');
-            passthru(base_path('vendor/bin/phpunit'));
+            $this->call('test');
         }
     }
 }
