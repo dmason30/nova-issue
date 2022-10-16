@@ -15,7 +15,7 @@ class ExampleTest extends TestCase
         Artisan::call('db:seed');
         $this->actingAs(User::first());
         $queries = [];
-        DB::listen(function ($query) use (&$count, &$queries) {
+        DB::listen(function ($query) use (&$queries) {
             $queries[] = Str::replaceArray('?', $query->bindings, $query->sql);
         });
 
