@@ -57,7 +57,7 @@ jobs:
           composer install --no-interaction
 
       - name: Prepare Laravel Application
-        run: cp .env.example .env
+        run: cp .env.testing .env
 
       - name: Execute PHP tests
         run: php artisan test:nova
