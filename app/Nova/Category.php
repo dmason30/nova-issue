@@ -35,7 +35,7 @@ class Category extends Resource
             Text::make('Name')->required(),
 
             Currency::make('Price')
-                ->dependsOn('type',  fn (Currency $field, $r, FormData $data) => $field->visible = $data->get('type') === 'PRODUCT'),
+                ->dependsOn('type', fn (Currency $field, $r, FormData $data) => $field->visible = $data->get('type') === 'PRODUCT'),
         ];
     }
 }
