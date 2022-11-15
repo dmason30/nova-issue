@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b9f16fbf93e7951a3b896214d46bf25",
+    "content-hash": "9582f195112b471b60ef641c8bfe1b31",
     "packages": [
         {
             "name": "brick/math",
@@ -64,20 +64,21 @@
         },
         {
             "name": "brick/money",
-            "version": "0.6.0",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/money.git",
-                "reference": "7074e1bd463f517fb78447dff63454f4b1523c1b"
+                "reference": "3cac1b014e91718f02724c54c08a2bdcd7cd2340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/money/zipball/7074e1bd463f517fb78447dff63454f4b1523c1b",
-                "reference": "7074e1bd463f517fb78447dff63454f4b1523c1b",
+                "url": "https://api.github.com/repos/brick/money/zipball/3cac1b014e91718f02724c54c08a2bdcd7cd2340",
+                "reference": "3cac1b014e91718f02724c54c08a2bdcd7cd2340",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "~0.10.1",
+                "ext-json": "*",
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
@@ -109,7 +110,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/money/issues",
-                "source": "https://github.com/brick/money/tree/0.6.0"
+                "source": "https://github.com/brick/money/tree/0.7.0"
             },
             "funding": [
                 {
@@ -117,7 +118,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-01T23:09:55+00:00"
+            "time": "2022-10-05T22:11:12+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1549,20 +1550,20 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.17.1",
+            "version": "4.19.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "9c5d946dc8fbc4b23f357b9b998e9c434b267a5c"
+                "reference": "56de69c170f2f2497d8a51f19e84898663339e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-9c5d946dc8fbc4b23f357b9b998e9c434b267a5c-zip-a6d619.zip",
-                "reference": "9c5d946dc8fbc4b23f357b9b998e9c434b267a5c",
-                "shasum": "ddd1ac0d284aa7b8843ea18831096240ae2e2f81"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-56de69c170f2f2497d8a51f19e84898663339e04-zip-147264.zip",
+                "reference": "56de69c170f2f2497d8a51f19e84898663339e04",
+                "shasum": "155f94d95488b485bca748d96e02aa3a4a228864"
             },
             "require": {
-                "brick/money": "^0.5.0|^0.6.0",
+                "brick/money": "^0.5.0|^0.6.0|^0.7.0",
                 "doctrine/dbal": "^2.13.3|^3.1.2",
                 "ext-json": "*",
                 "illuminate/support": "^8.83.4|^9.3.1",
@@ -1654,9 +1655,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.17.1"
+                "source": "https://github.com/laravel/nova/tree/v4.19.0"
             },
-            "time": "2022-10-26T15:11:06+00:00"
+            "time": "2022-11-15T14:30:32+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -6567,16 +6568,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.5",
+            "version": "2.14.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc"
+                "reference": "f7948baaa0330277c729714910336383286305da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
-                "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/f7948baaa0330277c729714910336383286305da",
+                "reference": "f7948baaa0330277c729714910336383286305da",
                 "shasum": ""
             },
             "require": {
@@ -6626,7 +6627,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.5"
+                "source": "https://github.com/filp/whoops/tree/2.14.6"
             },
             "funding": [
                 {
@@ -6634,7 +6635,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-07T12:00:00+00:00"
+            "time": "2022-11-02T16:23:29+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
