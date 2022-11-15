@@ -35,8 +35,6 @@ class Profile extends Resource
         'id',
     ];
 
-    public static $with = ['user'];
-
     /**
      * Get the fields displayed by the resource.
      *
@@ -48,7 +46,8 @@ class Profile extends Resource
         return [
             ID::make()->sortable(),
             BelongsTo::make('User')
-                ->searchable(),
+                ->hideFromIndex()
+                ->showOnPreview(),
             Select::make('Notification')->options([
                 'mail' => 'E-mail Notification',
                 'push' => 'Push Notification',
